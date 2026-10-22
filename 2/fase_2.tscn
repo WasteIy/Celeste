@@ -17,19 +17,15 @@
 [ext_resource type="Script" uid="uid://buqykmbqd3fg4" path="res://2/Objects/crumble_platform.gd" id="15_tvttx"]
 [ext_resource type="Script" uid="uid://dxfqhfm0gailj" path="res://2/Objects/jump_thru.gd" id="16_cgtug"]
 [ext_resource type="PackedScene" path="res://2/Player/player.tscn" id="17_tscts"]
-[ext_resource type="Script" uid="uid://c2xubhckepxoy" path="res://2/Solucao/spikes.gd" id="18_7gcul"]
 [ext_resource type="TileSet" uid="uid://byomo4mdsk81f" path="res://2/Level/forsaken_city_fg_tileset.tres" id="19_3ujjo"]
 [ext_resource type="Texture2D" uid="uid://cc5itk8ird2th" path="res://2/Level/snow_f.png" id="20_a10m7"]
-[ext_resource type="Script" uid="uid://cqupngcccggvh" path="res://2/Solucao/strawberry.gd" id="20_tx0xd"]
 [ext_resource type="Texture2D" uid="uid://clqk7gcou4aqa" path="res://2/Level/snow_a.png" id="21_jyoax"]
 [ext_resource type="Texture2D" uid="uid://c4uhyucykudrk" path="res://2/Level/snow_c.png" id="22_8r1tt"]
-[ext_resource type="Script" uid="uid://dc4qmtivwaob2" path="res://2/Solucao/death_zone.gd" id="22_fmsyx"]
 [ext_resource type="Script" uid="uid://bu5cmbsrrxvig" path="res://2/Effects/snow_fg.gd" id="23_tatg0"]
 [ext_resource type="Script" uid="uid://durhhsyd6to0" path="res://2/Level/game_camera.gd" id="24_6ogm2"]
-[ext_resource type="Script" uid="uid://c2kdgltehgc4" path="res://2/Solucao/winged_strawberry.gd" id="24_fmsyx"]
 [ext_resource type="PackedScene" path="res://2/Effects/effects.tscn" id="90_fx"]
 [ext_resource type="PackedScene" path="res://2/Objects/spikes.tscn" id="91_spk"]
-[ext_resource type="PackedScene" path="res://2/Objects/strawberry.tscn" id="92_stb"]
+[ext_resource type="PackedScene" uid="uid://dxu6ib7ced8xs" path="res://2/Objects/strawberry.tscn" id="92_stb"]
 [ext_resource type="PackedScene" path="res://2/Objects/death_zone.tscn" id="93_dz"]
 [ext_resource type="PackedScene" path="res://2/Objects/winged_strawberry.tscn" id="94_wstb"]
 
@@ -169,19 +165,15 @@ script = ExtResource("16_cgtug")
 
 [node name="Spikes" parent="Objects" unique_id=1330616902 instance=ExtResource("91_spk")]
 position = Vector2(176, 168)
-script = ExtResource("18_7gcul")
 
 [node name="Strawberry" parent="Objects" unique_id=506739552 instance=ExtResource("92_stb")]
 position = Vector2(120, 66)
-script = ExtResource("20_tx0xd")
 
 [node name="DeathZone" parent="Objects" unique_id=1477665794 instance=ExtResource("93_dz")]
 position = Vector2(160, 200)
-script = ExtResource("22_fmsyx")
 
 [node name="WingedStrawberry" parent="Objects" unique_id=169439588 instance=ExtResource("94_wstb")]
 position = Vector2(48, 96)
-script = ExtResource("24_fmsyx")
 
 [node name="Player" parent="." unique_id=1339097259 instance=ExtResource("17_tscts")]
 position = Vector2(172, 48)
