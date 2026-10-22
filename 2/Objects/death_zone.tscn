@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[sub_resource type="RectangleShape2D" id="shape"]
+size = Vector2(320, 16)
+
+[node name="DeathZone" type="Area2D"]
+collision_layer = 0
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("shape")

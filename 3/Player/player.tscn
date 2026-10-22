@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://cqrymgtt4hmxe"]
+
+[ext_resource type="Script" uid="uid://jfnihi3wh6q4" path="res://3/Player/player.gd" id="1_mtuoh"]
+[ext_resource type="Script" uid="uid://cp1pywd3pbqaj" path="res://3/Player/madeline_hair.gd" id="2_htcer"]
+[ext_resource type="SpriteFrames" uid="uid://bykqjxvyf8i27" path="res://3/Player/madeline_frames.tres" id="3_dd0ac"]
+[ext_resource type="SpriteFrames" uid="uid://cwesst606p6rv" path="res://3/Player/madeline_sweat_frames.tres" id="4_0u5uq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jlvik"]
+size = Vector2(8, 11)
+
+[node name="Player" type="CharacterBody2D" unique_id=1339097259]
+script = ExtResource("1_mtuoh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=522284383]
+position = Vector2(0, -5.5)
+shape = SubResource("RectangleShape2D_jlvik")
+
+[node name="Hair" type="Node2D" parent="." unique_id=562596144 node_paths=PackedStringArray("sprite")]
+script = ExtResource("2_htcer")
+sprite = NodePath("../Visual/AnimatedSprite2D")
+
+[node name="Visual" type="Node2D" parent="." unique_id=1541353068]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Visual" unique_id=707747227]
+position = Vector2(0, -16)
+sprite_frames = ExtResource("3_dd0ac")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="Sweat" type="AnimatedSprite2D" parent="Visual" unique_id=1797286004]
+position = Vector2(0, -16)
+sprite_frames = ExtResource("4_0u5uq")
+animation = &"idle"
+autoplay = "idle"

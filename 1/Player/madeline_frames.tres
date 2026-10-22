@@ -1,0 +1,290 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c2u5k71rnhc78"]
+
+[ext_resource type="Texture2D" uid="uid://b6vl2effbfsph" path="res://1/Player/madeline_sheet.png" id="1_4iops"]
+
+[sub_resource type="AtlasTexture" id="dash_0"]
+atlas = ExtResource("1_4iops")
+region = Rect2(0, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="dash_1"]
+atlas = ExtResource("1_4iops")
+region = Rect2(32, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="dash_2"]
+atlas = ExtResource("1_4iops")
+region = Rect2(64, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="dash_3"]
+atlas = ExtResource("1_4iops")
+region = Rect2(96, 128, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_0"]
+atlas = ExtResource("1_4iops")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_1"]
+atlas = ExtResource("1_4iops")
+region = Rect2(32, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_2"]
+atlas = ExtResource("1_4iops")
+region = Rect2(64, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_3"]
+atlas = ExtResource("1_4iops")
+region = Rect2(96, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_4"]
+atlas = ExtResource("1_4iops")
+region = Rect2(128, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_5"]
+atlas = ExtResource("1_4iops")
+region = Rect2(160, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_6"]
+atlas = ExtResource("1_4iops")
+region = Rect2(192, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="fall_slow_7"]
+atlas = ExtResource("1_4iops")
+region = Rect2(224, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_0"]
+atlas = ExtResource("1_4iops")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_1"]
+atlas = ExtResource("1_4iops")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_2"]
+atlas = ExtResource("1_4iops")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_3"]
+atlas = ExtResource("1_4iops")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_4"]
+atlas = ExtResource("1_4iops")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_5"]
+atlas = ExtResource("1_4iops")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_6"]
+atlas = ExtResource("1_4iops")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_7"]
+atlas = ExtResource("1_4iops")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="idle_8"]
+atlas = ExtResource("1_4iops")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="jump_fast_0"]
+atlas = ExtResource("1_4iops")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="jump_fast_1"]
+atlas = ExtResource("1_4iops")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="jump_fast_2"]
+atlas = ExtResource("1_4iops")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="jump_fast_3"]
+atlas = ExtResource("1_4iops")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_0"]
+atlas = ExtResource("1_4iops")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_1"]
+atlas = ExtResource("1_4iops")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_2"]
+atlas = ExtResource("1_4iops")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_3"]
+atlas = ExtResource("1_4iops")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_4"]
+atlas = ExtResource("1_4iops")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_5"]
+atlas = ExtResource("1_4iops")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_6"]
+atlas = ExtResource("1_4iops")
+region = Rect2(192, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_7"]
+atlas = ExtResource("1_4iops")
+region = Rect2(224, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_8"]
+atlas = ExtResource("1_4iops")
+region = Rect2(256, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_9"]
+atlas = ExtResource("1_4iops")
+region = Rect2(288, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_10"]
+atlas = ExtResource("1_4iops")
+region = Rect2(320, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="run_fast_11"]
+atlas = ExtResource("1_4iops")
+region = Rect2(352, 32, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("dash_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("dash_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("dash_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("dash_3")
+}],
+"loop": 0,
+"name": &"dash",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("fall_slow_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("fall_slow_7")
+}],
+"loop": 0,
+"name": &"fall_slow",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("idle_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_7")
+}, {
+"duration": 1.0,
+"texture": SubResource("idle_8")
+}],
+"loop": 0,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("jump_fast_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("jump_fast_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("jump_fast_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("jump_fast_3")
+}],
+"loop": 0,
+"name": &"jump_fast",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("run_fast_0")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_2")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_3")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_4")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_5")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_7")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_8")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_9")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_10")
+}, {
+"duration": 1.0,
+"texture": SubResource("run_fast_11")
+}],
+"loop": 1,
+"name": &"run_fast",
+"speed": 15.0
+}]

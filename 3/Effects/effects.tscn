@@ -1,0 +1,20 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://3/Effects/particles.gd" id="1"]
+[ext_resource type="Script" path="res://3/Effects/displacement.gd" id="2"]
+[ext_resource type="Script" path="res://3/Effects/screen_wipe.gd" id="3"]
+[ext_resource type="Script" path="res://3/Effects/freeze.gd" id="4"]
+
+[node name="Effects" type="Node"]
+
+[node name="Particles" type="Node2D" parent="."]
+script = ExtResource("1")
+
+[node name="Displacement" type="CanvasLayer" parent="."]
+script = ExtResource("2")
+
+[node name="ScreenWipe" type="CanvasLayer" parent="."]
+script = ExtResource("3")
+
+[node name="Freeze" type="Node" parent="."]
+script = ExtResource("4")

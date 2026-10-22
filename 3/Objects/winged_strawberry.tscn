@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://nkhb2po61cgi"]
+
+[ext_resource type="SpriteFrames" uid="uid://dvox3atav7k3u" path="res://3/Objects/winged_strawberry_frames.tres" id="1"]
+[ext_resource type="Script" uid="uid://j226ystngh8p" path="res://3/Objects/strawberry_visual.gd" id="2"]
+[ext_resource type="Script" uid="uid://b30k53rolmu04" path="res://3/Objects/winged_strawberry.gd" id="3"]
+
+[sub_resource type="CanvasItemMaterial" id="glow_material"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="glow_gradient"]
+offsets = PackedFloat32Array(0, 0.45, 1)
+colors = PackedColorArray(1, 0.95, 0.9, 1, 1, 0.9, 0.85, 0.35, 1, 0.9, 0.85, 0)
+
+[sub_resource type="GradientTexture2D" id="glow_texture"]
+gradient = SubResource("glow_gradient")
+width = 24
+height = 24
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="RectangleShape2D" id="shape"]
+size = Vector2(14, 14)
+
+[node name="WingedStrawberry" type="Area2D" unique_id=2113222433]
+z_index = 1
+collision_layer = 0
+monitorable = false
+script = ExtResource("3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1753669682]
+sprite_frames = ExtResource("1")
+animation = &"flap"
+autoplay = "flap"
+frame_progress = 0.9098429
+script = ExtResource("2")
+
+[node name="Glow" type="Sprite2D" parent="AnimatedSprite2D" unique_id=303996065]
+modulate = Color(1, 1, 1, 0.3)
+show_behind_parent = true
+texture_filter = 2
+material = SubResource("glow_material")
+texture = SubResource("glow_texture")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1934060130]
+shape = SubResource("shape")

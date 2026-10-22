@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://2/Objects/spikes_up.png" id="1"]
+
+[sub_resource type="RectangleShape2D" id="shape"]
+size = Vector2(32, 3)
+
+[node name="Spikes" type="Area2D"]
+z_index = 1
+collision_layer = 0
+monitorable = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_repeat = 2
+position = Vector2(0, -8)
+texture = ExtResource("1")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 32, 9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(16, -1.5)
+shape = SubResource("shape")

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dcd7vk2ufgxoe"]
+
+[ext_resource type="Script" uid="uid://da6tpsu4glr1g" path="res://1/Player/madeline_hair.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://c2u5k71rnhc78" path="res://1/Player/madeline_frames.tres" id="2"]
+
+[sub_resource type="RectangleShape2D" id="shape"]
+size = Vector2(8, 11)
+
+[node name="Player" type="CharacterBody2D" unique_id=1273071586]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=673771805]
+position = Vector2(0, -5.5)
+shape = SubResource("shape")
+
+[node name="Hair" type="Node2D" parent="." unique_id=1234844426 node_paths=PackedStringArray("sprite")]
+script = ExtResource("1")
+sprite = NodePath("../AnimatedSprite2D")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=332082360]
+position = Vector2(0, -16)
+sprite_frames = ExtResource("2")
+animation = &"idle"
+autoplay = "idle"
